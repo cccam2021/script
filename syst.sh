@@ -1,6 +1,6 @@
 #!/bin/bash
 #BY VICTOR
-echo VERSION=1.00000
+echo VERSION=1.1
 
 LOGFILE=/tmp/actualizacion.log
 exec 1> $LOGFILE 2>&1
@@ -61,7 +61,6 @@ rm -r /etc/init.d/script-master
 #BORRADO ZIP
 rm /etc/init.d/master.zip
 fi
-
 echo
 echo " ¿ ACTUALIZACION LISTA ? : "
 echo
